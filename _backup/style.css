@@ -1,0 +1,219 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@400;700&display=swap');
+
+
+/* Title */
+
+.title{
+    font-family: 'Unbounded', sans-serif;
+    color: #ffffff;
+    background-color: #4facfd;
+    font-size:40px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* Font */
+
+.oswald-semibold{
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+} 
+
+.oswald-bold{
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+} 
+
+.inter-regular{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+} 
+
+.inter-semibold{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+} 
+
+
+/* Class */
+
+.container{
+    max-width: var(--max);
+    margin: 0 auto;
+    padding: 0 16px;
+}
+
+.banner{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0 40px;
+    height: 30vh;
+    background-image: 
+    linear-gradient(to bottom, rgba(0, 0, 0, 0) 30%, rgb(10, 28, 53) 100%), 
+    url('images/test.jpeg');
+    background-size: cover;
+    background-position: center;
+    max-width:auto ;
+}
+
+.top-h1{
+    color: white;
+    margin: 0;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+/* Header */
+
+.site-header{
+    position:sticky;
+    top: 0;
+    z-index: 10;
+    background-color: var(--bg);
+}
+
+.head-inner{
+    display: flex;
+    
+}
+
+
+/* variables*/
+:root {
+    /* Colour Sort */
+    --navy-950: #070b1a; /* page background */
+    --navy-900: #0b1430; /* header, cards */
+    --navy-800: #111d42; /* card hover, inputs */
+    --navy-700: #1a2a5c; /* borders, dividers */
+    --navy-600: #24397a; /* strong borders */
+    --blue-600: #004f94; /* button pressed */
+    --blue-500: #0065bd; /* primary buttons (saltire blue) */
+    --blue-400: #2f86e0; /* button hover */
+    --blue-300: #6aa9f0; /* links ("STANDINGS →") */
+    --red-600: #b3001b; /* pressed / dark red */
+    --red-500: #e0102f; /* LIVE badge */
+    --red-400: #ff4058; /* highlights: "2026", eyebrow labels, active nav line */
+    --red-300: #ff8090; /* soft red text on dark */
+    --text: #eef2fb; /* main text */
+    --muted: #93a0c4; /* secondary text */
+    /* Color Var */
+    --bg: var(--navy-950);
+    --surface: var(--navy-900);
+    --border: var(--navy-700);
+    --accent: var(--red-400);
+    --link:var(--blue-300);
+    --primary: var(--blue-500); 
+    --radius: 10px;
+    --max: 1180px;
+}
+
+/* top-pages */
+h1 {
+    color: rgb(247, 247, 247);
+    font-size: 40px;
+    background-color: rgba(0, 0, 0, 0);
+    padding: 0;
+    text-align: left;
+    margin: 0;
+}
+
+.banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    background-image:
+      linear-gradient(to bottom, rgba(0,0,0,0) 30%, rgb(10,28,53) 100%),
+      url('images/test.jpeg');
+    background-size: cover;
+    background-position: center;
+}
+
+.top-h1 {
+    color: #ffffff;
+    margin: 0;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+/* navigation bar*/
+.nav-links {
+  display: flex;
+  gap: 12 px;
+  list-style: none;
+  justify-content: space-between;  /* logo on the left, links on the right */
+    text-align: center;             /* vertically centred */
+  background-color: #03345f;
+  margin: 0;
+  padding: 16px 10px;
+}
+
+.nav-links a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 18px;
+  transition: 0.3s;
+}
+
+.nav-links a:hover {
+  color: red;
+}
+
+.navbar {
+    background-color: #03345f;
+    padding: 16px ;
+    position: sticky;
+    top: 0;
+}
+
+body {
+  font-family: 'DM Sans', sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+}
+
+
+h2 {
+  color: #333;
+  font-family: 'DM Sans', sans-serif;
+}
+
+/* Hero Section */
+
+.hero h3 {
+    color: #000000;
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 48px;
+    text-align: left;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 20px;
+}
+
+.hero h4 {
+    color: rgb(4, 4, 4) ;
+    font-size: 30px;
+    text-align: left;
+    margin: auto;
+    display: flex; 
+
+
+}
+/* Schedule */
+
